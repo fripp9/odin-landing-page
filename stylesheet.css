@@ -2,22 +2,20 @@ body {
   width: 1440px;
   margin: auto;
   font-family: Roboto;
-  font-weight: 500;
 }
 
 .header,
 .first,
 .footer {
   background-color: #1F2937;
-  color: #f9faf8
+  color: #f9faf8;
 }
 
 .header {
   display: flex;
   justify-content: space-around;
-  align-items: center;
-  padding: 16px;
-  height: 48xp;
+  border-radius: 15px 15px 0 0;
+  padding-top: 32px;
 }
 
 .logo {
@@ -36,4 +34,70 @@ body {
 a {
   text-decoration: none;
   color: #f9faf8;
+}
+
+.first {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 160px;
+  padding: 60px;
+}
+
+.titulo {
+  font-size: 48px;
+  font-weight: 1000;
+  width: 400px;
+  margin-bottom: 8px;
+}
+
+button {
+  margin-top: 16px;
+  background-color: #3882F6;
+  padding: 8px 24px;
+}
+ 
+.texto {
+  width: 400px;
+  font-size: 18px;
+}
+
+/*       fin header + first          */
+/*       second        */
+
+.second {
+  text-align: center;
+}
+
+.subtitulo {
+  font-size: 36px;
+  color: #1F2937;
+  font-weight: 1000;
+  padding: 48px;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  gap: 110px;
+}
+
+.imagen {
+  width: 160px;
+  height: auto;
+  border: 5px solid #3882F6;
+  border-radius: 16px;
+  padding: 8px;
+}
+
+.subtexto {
+  font-size: 18px;
+}
+
+.info {
+  display: flex;
+  width: 138px;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 8px;
 }
